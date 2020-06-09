@@ -1,0 +1,19 @@
+
+#catalogHeader{
+    color: white;
+}
+#rentedHeader{
+    color: white;
+}
+#catalogMovies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+#budget{
+    display: grid;
+    justify-items: end;
+}
+#search{
+    color: white;
+}

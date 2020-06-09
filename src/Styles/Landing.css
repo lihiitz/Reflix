@@ -1,0 +1,27 @@
+
+#container{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+#users{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#question{
+    color: white;
+    display: grid;
+    justify-items: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.user{
+    color: black;
+    display: grid;
+    height: 127px;
+    margin: 13px;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+}

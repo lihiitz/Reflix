@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: black;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  padding: 10px;
+}
+
+#logo{
+  justify-items: end;
+  display: grid;
+  color: blue;
+}
+
+#link{
+  color: white;
+}
