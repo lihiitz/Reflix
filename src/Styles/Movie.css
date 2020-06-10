@@ -1,7 +1,9 @@
 
 .movie{
-    padding: 20px;
     border: 1px solid #fff;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 } 
 button{

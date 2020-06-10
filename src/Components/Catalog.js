@@ -38,7 +38,7 @@ class Catalog extends Component {
                             <input id="search" placeholder="Search movie" value={this.state.inputVal} onChange={this.inputChange}></input>
                             <div id="budget">budget : ${userBudget}</div>
                         </div>
-                        <div id="rented">
+                        <div id="catalog">
                             <div id="rentedHeader">rented</div>
                             <div className="catalogMovies">
                                 {this.props.state.rentedMovies.map((m, i) =>

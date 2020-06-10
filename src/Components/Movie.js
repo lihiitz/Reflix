@@ -15,9 +15,9 @@ class Movie extends Component{
         const movie = this.props.movie
         return(
             <div className="">
-                {/* {movie.isRented ? 
+                {movie.isRented ? 
                 <button onClick={this.returnMovie} className="returnMovie">RETURN MOVIE</button> :
-                <button onClick={this.rentMovie} className="rentMovie">RENT MOVIE</button>} */}
+                <button onClick={this.rentMovie} className="rentMovie">RENT MOVIE</button>}
                 {<Link to={`/movies/${movie.id}`}>
                     <div className="movie" style={{backgroundImage : `url(${movie.img})`}}></div>
                 </Link>}
